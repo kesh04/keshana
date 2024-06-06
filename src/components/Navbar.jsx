@@ -14,7 +14,7 @@ const Navbar = () => {
         
         </div>
         <div className='m-8 items-center justify-center gap-4 text-2xl flex'>
-          <a href="www.linkedin.com/in/keshana-viyanga-liyanaarachchi-556918240" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/keshana-viyanga-l-556918240/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
           <a href="https://github.com/kesh04" target="_blank" rel="noopener noreferrer">
