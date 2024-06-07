@@ -46,7 +46,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "The BUS Tracking App allows users to log into the system and check the live location of buses. Users can also contact special trip buses and check bus availability with ease",
-    technologies: ["React Native", "Node.js", "MongoDb", "Firebase", "JWT"],
+    technologies: ["React Native", "Node.js", "MongoDB", "Firebase", "JWT"],
   },
   {
     title: "Portfolio Website",
@@ -60,7 +60,7 @@ export const PROJECTS = [
     image: project5,
     description:
       "Admin  can  register institute, then institute can  register student, add course, batch, generate certificates, assign student for certificates",
-    technologies: ["React.js", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["React.js",  "Node.js", "Express", "MongoDB"],
   },
 ];
 
