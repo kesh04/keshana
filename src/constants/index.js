@@ -3,17 +3,27 @@ import project2 from "../assets/projects/bro.jpg";
 import project3 from "../assets/projects/bus.jpg";
 import project4 from "../assets/projects/kes.jpg";
 import project5 from "../assets/projects/cer.jpg";
+import project7 from "../assets/projects/apple.jpg";
+import project6 from "../assets/projects/flowrobe.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React, React Native and Next.js, as well as back-end technologies like Node.js, MySQL, Express.js, Firebase and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web and mobile applications. With 2+ years of hands-on experience, I have honed my skills in front-end technologies like React, React Native , PHP, Laravel and Next.js, as well as back-end technologies like Node.js, MySQL, Express.js, Firebase and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, React Native, Firebase and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack and mobile developer with a passion for creating efficient and user-friendly web and mobile applications. With 2+ years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, React Native, Firebase, PHP, Laravel , Postgresql  , Express.js and MongoDB. My journey in both web and mobile development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
+ {
+  year: "2025/02/01 - Present",
+  role: "Associate Software Engineer",
+  company: "FlowRobe",
+  description: `Leading the development and maintenance of a full-featured e-commerce platform using Next.js, React.js, and Firebase. Implemented secure payment processing with Stripe, integrated Shipmondo for order management and shipping solutions, and optimized overall website performance for a seamless user experience.`,
+  technologies: ["Next.js", "React.js", "Firebase", "Stripe", "Shipmondo"],
+},
+
   {
 
     
-    year: "2024/08/01 - Present",
-    role: "Software Engineer ",
+    year: "2024/08/01 - 2025/02/01",
+    role: "Associate Software Engineer ",
     company: "The Colors",
     description: `Developing and Maintaining web applications using JavaScript, React.js, PHP, Laravel and Node.js. Implemented RESTful APIs and integrated with MySQL database. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: [ "React.js", "Node.js", "Express.js", "MySQL", "PHP" ,"Laravel"],
@@ -22,7 +32,7 @@ export const EXPERIENCES = [
 
 
     year: "2024/03/15 - 2024/07/28",
-    role: "Software Engineer ",
+    role: "Software Engineer (Internship) ",
     company: "CEEET",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: [ "React.js", "Node.js", "Express.js", "mongoDB"],
@@ -38,6 +48,21 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+    {
+    title: "FlowRobe",
+    image: project6,
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["Next.js", "React.js", "Firebase", "Stripe", "Shipmondo"],
+  },
+    {
+    title: "Apple Web site ",
+    image: project7,
+    description:
+      "Like Real Apple Website",
+     technologies: [ "React", "Tailwind Css" , "Three.js" ,"GSAP"],
+  },
+  
   {
     title: "E-Commerce Website",
     image: project1,
@@ -46,7 +71,7 @@ export const PROJECTS = [
     technologies: [   "React","CSS", "Node.js", "MongoDB", "JWT"],
   },
   {
-    title: "Food Delivery website",
+    title: "Food Delivery Website",
     image: project2,
     description:
       "user can  log  into  the  system and order foods, check menu  , online transfer, reservation, cancel .Admin  can log into  the system  check order and delivery",
