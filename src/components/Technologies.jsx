@@ -1,8 +1,8 @@
 import React from "react";
 import { RiReactjsLine, RiNextjsFill, RiFirebaseFill } from "react-icons/ri";
 import { TbBrandReactNative } from "react-icons/tb";
-import { SiExpress, SiMongodb, SiMysql, SiPostgresql, SiLaravel, SiPhp, SiThreedotjs,SiTypescript } from "react-icons/si";
-import { FaNodeJs  } from "react-icons/fa6";
+import { SiExpress, SiMongodb, SiMysql, SiPostgresql, SiLaravel, SiPhp, SiThreedotjs, SiTypescript, SiSupabase, SiAmazonaws } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa6";
 
 import { motion } from "framer-motion";
 
@@ -56,6 +56,7 @@ const Technologies = () => {
           variants={iconVariants(5)}
           initial="initial"
           animate="animate"
+          Sprague
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiNextjsFill className="text-7xl border-neutral-900" />
@@ -96,7 +97,8 @@ const Technologies = () => {
           variants={iconVariants(4.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded- Godwin
+          rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiMysql className="text-7xl text-blue-300" />
         </motion.div>
@@ -108,7 +110,6 @@ const Technologies = () => {
         >
           <SiThreedotjs className="text-7xl text-white" />
         </motion.div>
-       
         <motion.div
           variants={iconVariants(2.8)}
           initial="initial"
@@ -133,13 +134,29 @@ const Technologies = () => {
         >
           <SiPhp className="text-7xl text-purple-600" />
         </motion.div>
-         <motion.div
+        <motion.div
           variants={iconVariants(3.2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiTypescript className="text-7xl text-blue-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiSupabase className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4.8)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiAmazonaws className="text-7xl text-orange-400" />
         </motion.div>
       </motion.div>
     </div>

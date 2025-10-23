@@ -101,7 +101,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Colombo waththa Alankulama Anuradhapura , Sri Lanka ",
+  address: "Colombo Estate Alankulama Anuradhapura , Sri Lanka ",
   phoneNo: "+94 70 2414082 ",
   email: "keshana004@gmail.com",
 };
