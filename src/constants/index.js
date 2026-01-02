@@ -6,16 +6,16 @@ import project5 from "../assets/projects/cer.jpg";
 import project7 from "../assets/projects/apple.jpg";
 import project6 from "../assets/projects/flowrobe.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web and mobile applications. With 2+ years of hands-on experience, I have honed my skills in front-end technologies like React, React Native , PHP, Laravel and Next.js, as well as back-end technologies like Node.js, MySQL, Express.js, Firebase and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web and mobile applications. With 3 years of hands on experience, I have honed my skills in frontend technologies like React, React Native , PHP, Laravel and Next.js, as well as backend technologies like Node.js, MySQL, Express.js, Firebase and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack and mobile developer with a passion for creating efficient and user-friendly web and mobile applications. With 2+ years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, React Native, Firebase, PHP, Laravel , Postgresql  , Express.js and MongoDB. My journey in both web and mobile development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack and mobile developer with a passion for creating efficient and user friendly web and mobile applications. With 3 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, React Native, Firebase, PHP, Laravel , Postgresql  , Express.js and MongoDB. My journey in both web and mobile development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open source projects.`;
 
 export const EXPERIENCES = [
  {
   year: "2025/02/01 - Present",
   role: "Associate Software Engineer",
   company: "FlowRobe",
-  description: `Leading the development and maintenance of a full-featured e-commerce platform using Next.js, React.js, and Firebase. Implemented secure payment processing with Stripe, integrated Shipmondo for order management and shipping solutions, and optimized overall website performance for a seamless user experience.`,
+  description: `Leading the development and maintenance of a full-featured ecommerce platform using Next.js, React.js, and Firebase. Implemented secure payment processing with Stripe, integrated Shipmondo for order management and shipping solutions, and optimized overall website performance for a seamless user experience.`,
   technologies: ["Next.js", "React.js", "Firebase", "Stripe", "Shipmondo"],
 },
 
